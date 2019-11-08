@@ -19,7 +19,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:clickable="true"
                 app:civ_border_width="1dp"
-                app:civ_border_color="#ADFF2F"
+                app:civ_border_color="#070000"
                 android:id="@+id/profile"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -34,9 +34,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:text="John Doe"
-                android:textColor="#fff"
-                android:textSize="21sp"
-                android:textStyle="bold" />
+                android:textColor="#000"
+                android:textSize="30sp"
+                 />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
@@ -173,7 +173,7 @@
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/ic_phone_android_black_24dp" />
+                    android:src="@drawable/reviews" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/ic_group_add_black_24dp" />
+                    android:src="@drawable/about" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -216,11 +216,10 @@
                 android:orientation="horizontal"
                 android:paddingLeft="25dp">
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Location:"
-                   android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/location" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -228,30 +227,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:paddingLeft="20dp"
-                    android:text="Location:\n Tampa FL\n"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal"
-                android:paddingLeft="25dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Languages:"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:paddingLeft="20dp"
-                    android:text="Language:\n English, Spanish"
+                    android:text="Tampa, FL"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -265,7 +241,7 @@
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/ic_share_black_24dp" />
+                    android:src="@drawable/languages" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -273,7 +249,29 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:paddingLeft="20dp"
-                    android:text="Reviews"
+                    android:text=" English, Spanish"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/stars" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="John Doe gave me my first true experience with Bass fishing. Thank you again!!"
                     android:textStyle="bold" />
             </LinearLayout>
 
